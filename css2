@@ -1,0 +1,35 @@
+﻿@font-face {
+  font-family: 'Fugaz One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/fugazone/v19/rax_HiWKp9EAITukFslMBA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Henny Penny';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/hennypenny/v17/wXKvE3UZookzsxz_kjGSfMQq.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik Microbe';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/rubikmicrobe/v2/UqyWK8oPP3hjw6ANS9rM3PsZcs8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sintony';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/sintony/v15/XoHm2YDqR7-98cVUITQ.ttf) format('truetype');
+}

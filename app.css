@@ -1,0 +1,208 @@
+﻿:root{
+--green: #6aaa64;
+--darkendGreen: #538d4e;
+--deepblue:rgb(38, 76, 248);
+--blue: #85c0f9;
+--yellow: #c9b458;
+--darkendYellow: #b59f3b;
+--lightGray: #d8d8d8;
+--gray: #86888a;
+--darkGray: #939598;
+--white: #fff;
+--pink:#ff66c4;
+--black: #212121;
+--orange: #f5793a;
+--color-tone-1: #ffffff;
+--color-tone-2: #818384;
+--color-tone-3: #565758;
+--color-tone-4: #3a3a3c;
+--color-tone-5: #272729;
+--color-tone-6: #1a1a1b;
+--color-tone-7: #121213;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: URL("gplay.png");
+    font-family: 'Sintony', sans-serif;
+}
+.App{
+overflow: hidden;
+}
+.page1{
+    z-index: 999;
+    height: 95vh;
+    
+    
+}
+.navbar-bg{
+    background-color: #09090970;
+}
+
+#logo{
+    width: 50px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    opacity: 100%;
+}
+.brand-name{
+    opacity: 95%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.flexer{
+    display: flex;
+    justify-content: space-between;
+}
+.showbg{
+    background:linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)) ,URL("pexels-karolina-grabowska-4021775.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 999;
+}
+.showcase{
+    width: 50%;
+    color: var(--white);
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.text-bold{
+    font-weight: bold;
+}
+.btn-showcase-click{
+    border: 0;
+    margin: 0.5rem;
+    margin-left: 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--white);
+    background: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-showcase-click:hover{
+    background: var(--darkendGreen);
+    color: white;
+}
+.showcase-btns .x{
+padding: 0.68rem;
+}
+
+.servicesText{
+    color: var(--darkendGreen);
+}
+/* page 3 design */
+
+.page3{
+    background: rgba(0, 0, 0, 0.633);
+}
+.intro{
+    color: var(--green);
+    font-weight: bold;
+}
+.experience{
+    color: var(--white);
+}
+.Experience-h1{
+    color: var();
+}
+.flexibleImg{
+    border-radius: 10px;
+}
+.page4{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.intermission h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--green);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.intermission h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+ /* .svg{
+     height: 100px;
+     width: 100px;
+ } */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:var(--green) }
+  }
+  
+  .page5{
+      background: rgba(0, 0, 0, 0.799);
+      min-height: 100vh;
+  }
+.page6{
+    min-height: 100vh;
+}
+
+
+
+.page6,.page7{
+    background: rgba(0, 0, 0, 0.633);
+}
+.bg-custom{
+    background: var(--green);
+}
+.bg-green{
+    background: var(--green);
+}
+.text-green{
+    color: var(--darkendGreen);
+}
+.text-greenlight{
+    color: var(--green);
+}
+.socials{
+    width: 100%;
+    display: flex;
+}
+.webdev{
+    color: white;
+    animation: animate 2s infinite;
+    transition: 2s all ease;
+}
+.webdev:hover{
+color: yellow;
+}
+
+@keyframes animate {
+    0%{
+transform: translateX(10px);
+    }
+    50%{
+transform: translateX(-10px)
+    }
+    70%{
+transform: translateX(10px)
+    }
+    100%{
+transform: translateX(-10px) ;       
+      font-size: 15px;  
+    }
+}
